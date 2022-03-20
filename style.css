@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+ul li{
+    list-style-type: none   ;
+}
+
+.front-page{
+    background-color: rgb(70, 26, 26);
+    height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:focus{
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 0px;
+}
+.link ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.link ul li{
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.link ul li:hover{
+    cursor: pointer;
+    background-color: rgb(13, 187, 199);
+    color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.hero-left{
+    width: 50%;
+}
+.hero-right{
+    width: 50%;
+}
+.hero-right .image{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: rgba(19, 17, 17, 0.712);
+    margin-left: 150px;
+    border: 20px solid gray;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(13, 187, 199);
+}
+.btn:hover{
+    cursor: pointer;
+    
+    color: white;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+}
+
+.work{
+    background-color: rgb(102, 9, 9);
+}
+
+.demo{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(13, 187, 199);;
+}
+.card .card-img{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.card .card-title{
+    color: black;
+    margin-bottom: 20px;
+}
+.card .card-content{
+    color: black;
+}
+
+.line{
+    margin-top: 40px;
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+}
+.btn-work{
+    background-color: rgba(19, 17, 17, 0.712);
+    
+}
+
+.latest-work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.work-card{
+    position: relative;
+    border: 4px solid white;
+    height: auto;
+    display: block;
+}
+.work-card:hover{
+    cursor: pointer;
+}
+.work-card-image{
+    width: 100%;
+    height: 190px;
+    background-color: gray;
+}
+.work-card-title{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    bottom: -15px;
+    left: 0;
+    display: block;
+}
+
+.togle-title{
+    display: none;
+}
